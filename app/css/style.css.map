@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA;EACC,uBAAsB,EACtB;;AAED;EACC,mBAAkB,EAClB","file":"style.css","sourcesContent":["body{\r\n\tbackground-color: #ccc;\r\n}\r\n\r\ninput{\r\n\tpadding: 10px 35px;\r\n}"]}
