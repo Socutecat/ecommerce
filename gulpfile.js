@@ -33,7 +33,7 @@ gulp.task('sass', function(){ // Создаем таск "sass"
 		.pipe(sourcemaps.write('.'))
 		.pipe(plumber.stop())
 		.pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
-		.pipe(notify("SCSS comlete!")) // Сообщение о успешном завершении
+		.pipe(notify({message: 'SCSS created', onLast: true})) // Сообщение о успешном завершении		
 		.pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 });
 
