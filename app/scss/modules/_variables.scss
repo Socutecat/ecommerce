@@ -1,19 +1,29 @@
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
-$success: #8bc34a;
-$danger: #e74c3c;
-$light: #a0a0a0;
+$gray-800: #b5b5b5;
+$gray-900: #707070;
+$green: #8bc34a;
+$red: #e74c3c;
+$orange: #ffa726;
+$cyan: #546e7a;
+
 $dark: #263238;
 
 // Fonts
 $font-family-sans-serif: 'Roboto', sans-serif;
+$h1-font-size: 36px;
+$h2-font-size: 30px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
 
-// Body
-$body-color: $dark;
+$small-font-size: 87.5%;
+$font-size-sm: 0.75rem;
 
-// Links
-$link-color: $dark;
+$heading-4-font-weight: bold;
+
+$headings-color: $dark;
 
 // Buttons
 $btn-padding-y-lg: 15px;
@@ -22,3 +32,28 @@ $font-size-lg: 0.9375rem;
 
 // Pagination
 $pagination-active-bg: $secondary;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    120: 120px
+  ),
+  $spacers
+);
+
+// Cards
+$card-spacer-y: 0.35rem;
+$card-spacer-x: 1.8rem;
+$card-spacer-x-sm: 0.6rem;
+
+// Links
+$link-hover-color: $cyan;
+$link-hover-decoration: none;

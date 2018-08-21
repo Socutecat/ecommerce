@@ -1,0 +1,66 @@
+.card{
+	border-radius: 0;
+	&:hover{
+		transition: 0.2s;
+		box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
+	};
+	&-body{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: $card-spacer-x-sm;
+	}
+	&-footer{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: transparent;
+		padding: $spacer $card-spacer-x;
+
+		.card-author{
+			display: flex;
+			align-items: center;
+		}
+
+		.card-author-img{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: $gray-800;
+			margin-right: 14px;
+		}
+	}
+
+	&-author-name{
+		color: $cyan;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	&-rating{
+		font-size: $font-size-sm;
+	}
+
+	&-rating-icon{
+		color: $orange;
+		transition: 0.2s;
+		cursor: pointer;
+		&.marked,
+		&:hover{
+			&:before{
+				content: '\f005';
+			};
+		}
+	}
+
+	&-rating-number{
+		color: $cyan;
+	}
+
+	&-rating-value{
+		color: $dark;
+	}
+}
