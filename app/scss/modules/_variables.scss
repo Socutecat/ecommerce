@@ -1,6 +1,10 @@
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
+$gray-100: #cccccc;
+$gray-200: #e8e8e8;
+$gray-600: #70838d;
+$gray-700: #aeb4bb;
 $gray-800: #b5b5b5;
 $gray-900: #707070;
 $green: #8bc34a;
@@ -10,16 +14,58 @@ $cyan: #546e7a;
 
 $dark: #263238;
 
+$white:   #fff !default;
+$gray-83: #d4d4d4 !default;
+$botticelli: #90a4ae !default;
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$lavender-blush: #f4f6f5 !default;
+$heather: #b0bec5 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+	"blue":       $blue,
+	"indigo":     $indigo,
+	"purple":     $purple,
+	"pink":       $pink,
+	"red":        $red,
+	"orange":     $orange,
+	"yellow":     $yellow,
+	"green":      $green,
+	"teal":       $teal,
+	"cyan":       $cyan,
+	"white":      $white,
+	"lavender-blush": $lavender-blush,
+	"heather":    $heather,
+	"gray":       $gray-600,
+	"gray-83":    $gray-83,
+	"gray-dark":  $gray-800
+  ),
+  $colors
+);
+
 // Fonts
 $font-family-sans-serif: 'Roboto', sans-serif;
-$h1-font-size: 36px;
-$h2-font-size: 30px;
+$h1-font-size: 48px;
+$h2-font-size: 36px;
 $h3-font-size: 24px;
 $h4-font-size: 20px;
 $h5-font-size: 18px;
 
 $small-font-size: 87.5%;
 $font-size-sm: 0.75rem;
+
+$font-weight-medium: 500 !default;
 
 $heading-4-font-weight: bold;
 
@@ -38,13 +84,34 @@ $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge(
   (
-    0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3),
-    120: 120px
+	0: 0,
+	1: ($spacer * .25),
+	2: ($spacer * .5),
+	3: $spacer,
+	4: ($spacer * 1.5),
+	5: ($spacer * 3),
+	10: 10px,
+	13: 13px,
+	20: 20px,
+	25: 25px,
+	28: 28px,
+	30: 30px,
+	35: 35px,
+	40: 40px,
+	45: 45px,
+	50: 50px,
+	55: 55px,
+	60: 60px,
+	65: 65px,
+	75: 75px,
+	83: 83px,
+	100: 100px,
+	105: 105px,
+	110: 110px,
+	115: 115px,
+	120: 120px,
+	150: 150px,
+	170: 170px
   ),
   $spacers
 );
@@ -57,3 +124,10 @@ $card-spacer-x-sm: 0.6rem;
 // Links
 $link-hover-color: $cyan;
 $link-hover-decoration: none;
+
+// Components
+// $box-shadow-sm: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75);
+$box-shadow-sm: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75);
+$box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75);
+// $box-shadow-lg: 0.0625rem 0.125rem 0.3125rem 0 rgba(202, 215, 228, 0.75);
+$box-shadow-lg: 0 1rem 1.25rem 0 rgba(216, 216, 216, 0.75);

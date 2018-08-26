@@ -2,8 +2,12 @@
 	@import "modules/_variables.scss";
 	@import "bootstrap/_bootstrap.scss";
 
+	@import "modules/utilites/_text.scss";
 	@import "modules/_font-awesome.scss";
+	@import "modules/_owl.carousel.min.scss";
+	@import "modules/_main.scss";
 	@import "modules/_buttons.scss";
 	@import "modules/_type.scss";	
 	@import "modules/_card.scss";
 	@import "modules/_pagination.scss";
+	@import "modules/_isotope.scss";

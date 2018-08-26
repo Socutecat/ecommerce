@@ -1,0 +1,24 @@
+/*Styles for isotope filter*/
+.filter-button-group{
+	padding: 35px 0;
+
+	.button{
+		font-weight: 500;
+		background-color: $white;
+		border: 0;
+		cursor: pointer;
+		margin: 6px 2px;
+		padding: 8px 20px;
+		border: $border-width solid transparent;
+
+		&:hover{
+			border: $border-width solid $primary;
+			box-shadow: $box-shadow;
+		}
+
+		&.is-checked{
+			background-color: $secondary;
+			color: $white;
+		}		
+	}	
+}

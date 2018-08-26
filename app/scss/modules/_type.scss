@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6,
 	}
 }
 
-h4, .h4{
+h1, h2, h4, .h1, .h2, .h4{
 	font-weight: $heading-4-font-weight;
 }
 
@@ -14,4 +14,8 @@ h4, .h4{
 a,
 a:hover{
 	transition: 0.2s;
+}
+
+h1{
+	color: $white;
 }
