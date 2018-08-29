@@ -12,8 +12,8 @@ $dark: #263238;
 
 // Fonts
 $font-family-sans-serif: 'Roboto',sans-serif;
-$h1-font-size: 36px;
-$h2-font-size: 30px;
+$h1-font-size: 48px;
+$h2-font-size: 36px;
 $h3-font-size: 24px;
 $h4-font-size: 20px;
 $h5-font-size: 18px;
@@ -64,3 +64,9 @@ $card-spacer-x-sm: 0.6rem;
 // Links
 $link-hover-color: $cyan;
 $link-hover-decoration: none;
+
+// components
+$box-shadow-sm: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75);
+$box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75);
+// $box-shadow-lg: 0.0625rem 0.125rem 0.3125rem 0 rgba(202, 215, 228, 0.75);
+$box-shadow-lg: 0 1rem 1.25rem 0 rgba(216, 216, 216, 0.75);

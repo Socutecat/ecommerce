@@ -77,6 +77,12 @@
 		color: $orange;
 		transition: 0.2s;
 		cursor: pointer;
+		font-weight: $font-weight-bold;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
 		&.marked,
 		&:hover{
 			&:before{
@@ -87,6 +93,7 @@
 
 	&-rating-number{
 		color: $cyan;
+		margin-left: 10px;
 	}
 
 	&-rating-value{

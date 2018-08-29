@@ -310,10 +310,10 @@ h1, h2, h3, h4, h5, h6,
   color: #263238; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 48px; }
 
 h2, .h2 {
-  font-size: 30px; }
+  font-size: 36px; }
 
 h3, .h3 {
   font-size: 24px; }
@@ -6058,16 +6058,16 @@ button.bg-dark:focus {
   white-space: normal; }
 
 .shadow-sm {
-  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  -webkit-box-shadow: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75) !important;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75) !important; }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  -webkit-box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75) !important;
+  box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75) !important; }
 
 .shadow-lg {
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+  -webkit-box-shadow: 0 1rem 1.25rem 0 rgba(216, 216, 216, 0.75) !important;
+  box-shadow: 0 1rem 1.25rem 0 rgba(216, 216, 216, 0.75) !important; }
 
 .shadow-none {
   -webkit-box-shadow: none !important;
@@ -10775,11 +10775,15 @@ a:hover {
     color: #ffa726;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    cursor: pointer; }
+    cursor: pointer;
+    font-weight: 700; }
+    .card-rating-icon:last-child {
+      margin-right: 0; }
     .card-rating-icon.marked:before, .card-rating-icon:hover:before {
       content: '\f005'; }
   .card-rating-number {
-    color: #546e7a; }
+    color: #546e7a;
+    margin-left: 10px; }
   .card-rating-value {
     color: #263238; }
 
@@ -10798,8 +10802,8 @@ a:hover {
   cursor: pointer; }
   .filter-button-group button:hover {
     border: 1px solid transparent;
-    -webkit-box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
-    box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
+    -webkit-box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75);
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgba(204, 216, 228, 0.75);
     -webkit-transition: all .2s ease;
     transition: all .2s ease; }
   .filter-button-group button.is-checked {
@@ -10830,8 +10834,6 @@ a:hover {
     color: #263238; }
     .links-area .link-btn:hover {
       border: 1px solid #8bc34a;
-      -webkit-box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
-      box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
       -webkit-transition: all .2s ease-in;
       transition: all .2s ease-in; }
 
