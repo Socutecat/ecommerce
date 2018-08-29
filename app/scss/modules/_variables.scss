@@ -7,11 +7,11 @@ $green: #8bc34a;
 $red: #e74c3c;
 $orange: #ffa726;
 $cyan: #546e7a;
-
+$isotope-bgc:#f4f6f5;
 $dark: #263238;
 
 // Fonts
-$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-sans-serif: 'Roboto',sans-serif;
 $h1-font-size: 36px;
 $h2-font-size: 30px;
 $h3-font-size: 24px;
@@ -44,7 +44,14 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
-    120: 120px
+    30:30px,
+    32:32px,
+    60:60px,
+    65:65px,
+    120: 120px,
+    130:130px,
+    127:127px,
+
   ),
   $spacers
 );
