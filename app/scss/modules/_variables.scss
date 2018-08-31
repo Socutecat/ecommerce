@@ -1,6 +1,8 @@
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
+$gray-500: #adb5b9;
+$gray-700:#e0e0e0;
 $gray-800: #b5b5b5;
 $gray-900: #707070;
 $green: #8bc34a;
@@ -9,6 +11,13 @@ $orange: #ffa726;
 $cyan: #546e7a;
 $isotope-bgc:#f4f6f5;
 $dark: #263238;
+$price-card:#000000;
+$icon-message-color:#ef6c00;
+$info:$icon-message-color;
+
+
+
+
 
 // Fonts
 $font-family-sans-serif: 'Roboto',sans-serif;
@@ -20,6 +29,8 @@ $h5-font-size: 18px;
 
 $small-font-size: 87.5%;
 $font-size-sm: 0.75rem;
+
+$font-weight-medium: 500 !default;
 
 $heading-4-font-weight: bold;
 
@@ -44,6 +55,11 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
+    13:13px,
+    14:14px,
+    20:20px,
+    24:24px,
+    25:25px,
     30:30px,
     32:32px,
     60:60px,

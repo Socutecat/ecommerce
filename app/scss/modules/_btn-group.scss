@@ -1,0 +1,17 @@
+.btn-group{
+	display: flex;
+	.btn{
+		display: flex;
+		margin: 0 5px 0 0;
+		border-radius: 0;
+		.btn :last-of-type{
+			margin: 0;
+			padding: 0;
+		}
+		&:hover{
+			transition: .2s ease-in-out;
+			cursor: pointer;
+			
+		}
+	}
+}

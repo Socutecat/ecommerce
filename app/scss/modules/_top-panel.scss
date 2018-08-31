@@ -1,0 +1,196 @@
+
+
+.top-panel{
+	padding-top: 20px;
+	padding-bottom: 1rem;
+}
+
+.dropdown{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.account-information{
+	display: flex;
+	align-items: center;
+	margin-left: -1rem;
+	margin-bottom: -1rem;
+
+
+
+
+	.info-inner{
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+		font-size: 15px;
+	}
+
+	.messages-block{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.btn{
+			border-radius: 50%;
+			font-size: 14px;
+			position: relative;
+			padding: 0;
+			width: 34px;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			margin-left: 3px;
+			margin-right: 3px;
+			&:hover{
+				color: $dark;
+			}
+
+				.badge{
+					position: absolute;
+					border-radius: 50%;
+					color:$white;
+					font-size: 11px;
+					top: -10px
+				}
+		}
+
+		.dropdown-menu{
+			border: 1px solid $gray-700;
+			padding: 0;
+			margin: 0;
+			@media(min-width: 1200px){
+				margin-top: 31px;
+			}
+			border-radius: 0;
+			.dropdown-item+.dropdown-item{
+				border-top: 1px solid $gray-700;
+			}
+
+			@media(min-width: 1200px){
+				margin-top: 18px;
+			}
+		}
+
+		.dropdown-item .btn{
+			border-radius: 0;
+			width: auto;
+			height: auto;
+			color: $white;
+
+			&.btn-primary:hover{
+				background-color: $white;
+				border: $border-width solid $primary;
+				color: $primary;
+			}
+
+			&.btn-secondary:hover{
+				background-color: $white;
+				border: $border-width solid $secondary;
+				color: $secondary;
+			}
+		}
+		.dropdown-item{
+			padding: 20px 15px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.message{
+				margin-left: 30px;
+				margin-right: 40px;
+			}
+				.img-wrapper{
+					width: 54px;
+					height: 54px;
+					background-color: $gray-700;
+					overflow: hidden;
+					border-radius: 50%;
+				}
+				.shopping-img-wrapper{
+					max-width: 100px;
+					height: auto;
+					overflow: hidden;
+					background-color: $gray-700;
+					border-radius: 0;
+				}
+				.shopping-message{
+					margin-left:$spacer;
+
+				}
+
+		}
+		.message{
+			margin-left: 30px;
+			margin-right: 40px;
+		}
+		.shopping-cart-title{
+			font-size: 15px;
+			color: $dark;
+			font-weight: $font-weight-medium;
+		}
+		.shopping-cart-price{
+			color: $price-card;
+		}
+
+	}
+}
+
+.user-info{
+	margin-left: $spacer;
+	.user-logo{
+		width: 34px;
+			height: 34px;
+			background-color: $gray-500;
+			overflow: hidden;
+			border-radius: 50%;
+	}
+		.user-data{
+			font-size: 14px;
+			font-weight: $font-weight-medium;
+			line-height: 24px;
+			margin-left: 1rem;
+
+			button{
+				font-size: 14px;
+				font-weight: $font-weight-medium;
+				background-color: transparent;
+				padding: 0;
+			button:after{
+				font-family: FontAwesome;
+				content: "\f112";
+				color: $primary;
+			}
+
+				.fa{
+					font-size: 1rem;
+					margin-left: 5px;
+				}
+			}
+			.value{
+				font-weight: $heading-4-font-weight;
+				line-height: 1rem;
+				margin: 0 5px;
+			}
+
+
+	}
+}
+
+.user-data .dropdown-menu .dropdown-item:before{
+	font-family: FontAwesome;
+	content: "\f105";
+	padding-right: 10px;
+	color: $primary;
+}
+
+.user-info button::after{
+	font-family: FontAwesome;
+	content: "\f107";
+	margin-left: 14px;
+
+}
+.color-dark{
+	color: #546e7a;
+}
+
+.user-data .dropdown-menu .dropdown-item{
+	font-size: 12px;
+}
+

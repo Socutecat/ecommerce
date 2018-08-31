@@ -9,6 +9,7 @@ background-color:$isotope-bgc;
 			background-color:$white;
 			border: 0;
 			padding: 8px 20px;
+			margin: 6px 2px;
 			border: $border-width solid transparent;
 			cursor: pointer;
 
@@ -31,7 +32,7 @@ background-color:$isotope-bgc;
 	padding: 0;
 	align-items: center;
 	li{
-		padding: 0px 5px;
+		padding: 5px 5px;
 	}
 
 	.link-btn{

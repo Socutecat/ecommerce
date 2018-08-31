@@ -12,6 +12,7 @@
 			width: 100%;
 			border-radius: 0;
 		}
+
 	}
 	.trending{
 		cursor: pointer;
@@ -31,15 +32,30 @@
 			position: absolute;
 		}
 	}
-
-
+	&-title{
+		color: innerhit;
+		&:hover{
+				color: $primary;
+			}
+	}
 	&-body{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding-bottom: $card-spacer-x-sm;
+		padding: 1.8rem $card-spacer-x-sm $card-spacer-x-sm $card-spacer-x-sm;
+		text-align: left;
+		@media(min-width: 768px){
+			padding: 1.8rem;
+			padding-bottom: $card-spacer-x-sm;
+		}
+	}
+	&-body-inner .card-desc{
+		margin-top: 10px;
 	}
 	&-footer{
+	@media screen and (max-width:320px){
+		padding: $spacer 0.6rem;
+	}
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -98,5 +114,23 @@
 
 	&-rating-value{
 		color: $dark;
+	}
+}
+
+.card-rating{
+	display: flex;
+	align-items: center;
+	ul{
+		display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li{
+				padding-right: 25px;
+				&:last-child{
+					padding-right: 0;
+					i{
+						font-size: $font-size-base;
+					}}}
 	}
 }
