@@ -3,18 +3,21 @@
 	border: none;
 	margin-left: 7px;
 	background-color:$white;
-	color: $black;
+	color: $dark;
 	border-color: transparent;
-	padding: 13px 20px;
-	&:hover{
-		background-color: $secondary;
-		color:$white;
-		& :nth-child(1){
+	padding: 10px 18px;
+		&.active{
 			background-color: $secondary;
+			color: $white;
 		}
-
+		&:hover{
+			background-color: $white;
+			border: 1px solid $primary;
+			color: $dark;
+		}
 	}
-}
+
+
 
 .pagination{
 	margin-left: 13px;

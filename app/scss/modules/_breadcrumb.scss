@@ -1,9 +1,9 @@
 .breadcrumb{
-	margin-bottom: 0;
-	background-color:$gray-600;
+	padding-left: 0;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	padding-left: 0;
+	margin-bottom: 0;
+	background-color: transparent;
 	a{
 		color: $cyan;
 		&:hover{
@@ -20,4 +20,9 @@
 	.breadcrumb-item.active{
 		color:$dark;
 	}
+}
+
+.sort-block .small{
+	padding-left: 14px;
+	padding-right: 20px;
 }

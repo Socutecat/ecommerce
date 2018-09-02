@@ -31,34 +31,37 @@ p:last-of-type{
 	list-style: none;
 	padding-left: 0;
 	margin-bottom: 0;
-
-		li{
-			font-size: 0.9375rem;
+	li{
+		font-size: 0.9375rem;
+		& + li{
+			margin-top: 15px;;
+		}
+		a{
 			color: $dark;
-			& + li{
-				margin-top: 0.9375rem;
+			&:hover{
+				color: $primary;
 			}
-			&::before{
+		}
+
+		&:before{
 			font-family: FontAwesome;
 			content: "\f105";
 			padding-right: 10px;
 			color: $primary;
-			}
-			span{
-				float: right;
-				color: $cyan;
-			}
 		}
+
+		span{
+			float: right;
+			color: $cyan;
+		}
+	}
 }
-// sort-block
-.sort-block p{
-	padding-left: 15px;
-	padding-right: 25px;
-}
-.sort-block a{
-	margin-right: 5px;
-	&:last-of-type{
-		margin-right: 0;
-		color: $cyan;
+
+
+span{
+	&.icon-sort{
+		&:before{
+			font-size: 18px;
+		}
 	}
 }

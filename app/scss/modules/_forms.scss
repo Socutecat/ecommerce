@@ -1,46 +1,44 @@
-$pink: #fc047c;
-$white: #fff;
-$gray5: darken($white, 5%);
-$gray25: darken($white, 25%);
-
-.filters {
-	padding: 5rem 2rem;
+.range {
 	background-color: $white;
 	.ui-slider-handle {
-		width: 3rem;
-		height: 3rem;
-		top: -1.2rem;
-		border: 0.6rem solid $pink;
+		width: 1rem;
+		height: 1rem;
+		top: -0.3125rem;
+		border: 0.3125rem solid $primary;
 		border-radius: 50%;
-		//margin-left: -1.5rem;
-		transform: translateX(-0.9rem);
+
 		&:focus, &:active {
 			outline: none;
 			background: $white;
 		}
 	}
-}
 
-.controls {
-	#price-range {
-		border: none;
-		background: $gray25;
-		border-radius: 0;
-		.ui-slider-range {
-			background: $pink;
+	.ui-slider-horizontal {
+		height: 0.3125rem;
+
+	}
+
+	.controls {
+		#price-range {
+			border: none;
+			background: $gray-400;
+			border-radius: 0;
+			.ui-slider-range {
+				background: $dark;
+			}
 		}
 	}
-}
 
-.textinputs {
-	@extend .clearfix;
-	padding: 1.5rem 0;
-	input {
-		width: 4rem;
-		display: block;
-		float: left;
-	}
-	input:last-child {
-		float: right;
+	.textinputs {
+		@extend .clearfix;
+		padding: 1.5rem 0;
+		input {
+			width: 4rem;
+			display: block;
+			float: left;
+		}
+		input:last-child {
+			float: right;
+		}
 	}
 }

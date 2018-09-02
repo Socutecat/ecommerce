@@ -32,7 +32,7 @@ background-color:$isotope-bgc;
 	padding: 0;
 	align-items: center;
 	li{
-		padding: 5px 5px;
+		padding: 0px 6px;
 	}
 
 	.link-btn{
@@ -46,6 +46,8 @@ background-color:$isotope-bgc;
 			&:hover{
 				border: $border-width solid $primary;
 				transition: all .2s ease-in;
+				box-shadow: $box-shadow;
+
 			}
 	}
 }
