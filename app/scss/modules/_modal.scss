@@ -1,0 +1,143 @@
+.modal-content{
+	background-color:$green;
+	.modal-header{
+		border-bottom: none;
+	}
+
+}
+
+.form-wrapper{
+	padding: 0px 15px;
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.form-wrapper-inner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 100%;
+	@media (min-width:768px){
+		display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	max-width: 100%;
+}
+	}
+
+
+.form-wrapper-contact{
+	padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+	align-items: flex-start;
+	margin: 0 auto;
+	width: 100% ;
+
+}
+
+.input-text{
+	width: 100%;
+	background-color:#76ae36;
+	border: none;
+	margin-bottom: 10px;
+	padding: 15px 40px;
+	position: relative;
+
+}
+
+.input-password{
+	width: 100%;
+	background-color:#76ae36;
+	border: none;
+	padding: 15px 40px;
+	position: relative;
+}
+
+
+.icon-text{
+	position: absolute;
+	top: 34px;
+	left: 42px;
+	font-size: 14px;
+	color: $white;
+}
+.icon-password{
+	position: absolute;
+	top:100px;
+	left:42px;
+	font-size: 14px;
+	color: $white;
+
+}
+
+.form-account {
+	padding: 10px 45px;
+	border: none;
+	color: $primary;
+	background-color: #76ae36;
+	font-size: $small-font-size;
+	font-weight:bold;
+	&:hover{
+		color: $price-card;
+	}
+
+		@media(min-width:768px){
+		padding: 15px 77.8px;
+		border: none;
+		color: $white;
+		background-color: #76ae36;
+		font-size: $small-font-size;
+		font-weight:bold;
+	}
+
+}
+
+
+.type-submit{
+	padding: 13px 45px;
+	background-color:$white;
+	color: $price-card;
+	border-color: transparent;
+	font-size: $small-font-size;
+	font-weight:bold;
+	cursor: pointer;
+}
+.form-wrapper-contact{
+	margin-top: 20px;
+}
+
+
+.input-password::placeholder{
+	color:$white;
+}
+.input-text::placeholder{
+	color:$white;
+}
+
+
+

@@ -1,0 +1,23 @@
+.breadcrumb{
+	margin-bottom: 0;
+	background-color:$gray-600;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 0;
+	a{
+		color: $cyan;
+		&:hover{
+			color: $primary;
+			transition: .2s;
+		}
+	}
+	.breadcrumb-item +.breadcrumb-item::before{
+		display: inline-block;
+		padding-right: 0.5rem;
+		color:$green;
+		content: "-";
+	}
+	.breadcrumb-item.active{
+		color:$dark;
+	}
+}

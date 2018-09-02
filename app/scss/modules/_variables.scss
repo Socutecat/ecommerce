@@ -1,7 +1,9 @@
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
+$gray-400:#dde3e8;
 $gray-500: #adb5b9;
+$gray-600:#f4f6f5;
 $gray-700:#e0e0e0;
 $gray-800: #b5b5b5;
 $gray-900: #707070;
@@ -15,6 +17,9 @@ $price-card:#000000;
 $icon-message-color:#ef6c00;
 $info:$icon-message-color;
 
+
+// body
+$body-bg:$gray-600;
 
 
 
@@ -40,7 +45,8 @@ $headings-color: $dark;
 $btn-padding-y-lg: 15px;
 $btn-padding-x-lg: 30px;
 $font-size-lg: 0.9375rem;
-
+$border-radius:0;
+$border-radius-lg:0;
 // Pagination
 $pagination-active-bg: $secondary;
 
@@ -55,6 +61,7 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
+    10:10px,
     13:13px,
     14:14px,
     20:20px,
@@ -62,8 +69,11 @@ $spacers: map-merge(
     25:25px,
     30:30px,
     32:32px,
+    35:35px,
+    45:45px,
     60:60px,
     65:65px,
+    110:110px,
     120: 120px,
     130:130px,
     127:127px,
@@ -73,13 +83,16 @@ $spacers: map-merge(
 );
 
 // Cards
-$card-spacer-y: 0.35rem;
-$card-spacer-x: 1.8rem;
-$card-spacer-x-sm: 0.6rem;
+$card-spacer-y: 0.6rem;
+$card-spacer-x: 0.6rem;
+$card-spacer-x-sm: 0.65rem;
 
 // Links
 $link-hover-color: $cyan;
 $link-hover-decoration: none;
+
+// borders
+$border-color: $gray-400;
 
 // components
 $box-shadow-sm: 0 0.0625rem 0.125rem 0 rgba(205, 214, 222, 0.75);

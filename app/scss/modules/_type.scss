@@ -18,3 +18,47 @@ a:hover{
 p:last-of-type{
 	margin-bottom: 0;
 }
+
+// sidebar
+
+.sidebar-block h4{
+	padding-bottom: 30px;
+	border-bottom: 1px solid $gray-400;
+
+}
+
+.listing{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+
+		li{
+			font-size: 0.9375rem;
+			color: $dark;
+			& + li{
+				margin-top: 0.9375rem;
+			}
+			&::before{
+			font-family: FontAwesome;
+			content: "\f105";
+			padding-right: 10px;
+			color: $primary;
+			}
+			span{
+				float: right;
+				color: $cyan;
+			}
+		}
+}
+// sort-block
+.sort-block p{
+	padding-left: 15px;
+	padding-right: 25px;
+}
+.sort-block a{
+	margin-right: 5px;
+	&:last-of-type{
+		margin-right: 0;
+		color: $cyan;
+	}
+}

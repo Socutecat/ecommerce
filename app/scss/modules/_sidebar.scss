@@ -1,0 +1,46 @@
+.sidebar-block{
+	background-color:$white;
+	border: 1px solid $gray-400;
+	padding: 1.5625rem;
+
+		&+.sidebar-block{
+			margin-bottom: 30px;
+		}
+		h4{
+			padding-bottom: 20px;
+			border-bottom: 1px solid $gray-400;
+			margin-bottom: 30px;
+		}
+}
+.sidebar-block:first-child{
+	margin-bottom: 30px;
+}
+
+
+.sidebar-block .card{
+	box-shadow: none;
+	border: none;
+	& + .card{
+		margin-top: 30px;
+	}
+		&-body,
+		&-footer{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		&-footer{
+			border-top: none;
+			border-bottom: 1px solid $gray-400;
+			padding-bottom: 30px;
+		}
+		&-price{
+			font-weight: bold;
+			color:$dark
+		}
+}
+
+.sidebar-block .card:last-of-type{
+	.card-footer{
+		border-bottom: none;
+	}
+}
