@@ -18,7 +18,17 @@ $icon-message-color:#ef6c00;
 $info:$icon-message-color;
 $sort-text:#455a64;
 $breadcrumb-text:#b0bec5;
- 
+$green-modal:#76ae36;
+$sort-block-fa:#90a4ae;
+$sidebar-text:#70838d;
+$span-icon:#a6b5bb;
+
+// color-btn-group
+$icon-meh-color:$orange;
+$icon-pagelines-color:#f4511e;
+$icon-bolt-color: #00bcd4;
+$icon-foursquare-color:#66bb6a;
+$icon-cny-color: #cfd8dc;
 
 // body
 $body-bg:$gray-600;
@@ -66,6 +76,7 @@ $spacers: map-merge(
     10:10px,
     13:13px,
     14:14px,
+    18:18px,
     20:20px,
     24:24px,
     25:25px,

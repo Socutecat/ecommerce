@@ -99,7 +99,7 @@
 // 	padding: 10px 45px;
 // 	border: none;
 // 	color: $primary;
-// 	background-color: #76ae36;
+// 	background-color:$green-modal;
 // 	font-size: $small-font-size;
 // 	font-weight:bold;
 // 	&:hover{
@@ -110,7 +110,7 @@
 // 		padding: 15px 77.8px;
 // 		border: none;
 // 		color: $white;
-// 		background-color: #76ae36;
+// 		background-color:$green-modal;
 // 		font-size: $small-font-size;
 // 		font-weight:bold;
 // 	}
@@ -151,8 +151,6 @@
 			max-width: 730px;
 		}
 	}
-	// Modal header
-	// Top section of the modal w/ title and dismiss
 	.modal-header{
 		border-bottom: none;
 
@@ -168,7 +166,7 @@
 		.btn-register {
 			font-size: 14px;
 			font-weight: $font-weight-bold;
-			background-color: #76ae36;
+			background-color:$green-modal;
 			color: $white;
 			display: inline-block;
 			padding: 13px 50px;
@@ -176,12 +174,37 @@
 			border: none;
 			border-radius: 0;
 
+
 			&:hover{
 				background-color: $white;
 				color: $black;
 				box-shadow: 0px 3px 2px 0px rgba(118, 174, 54, 0.75);
 			}
 		}
+
+
+			@media(min-width:768px){
+			.btn-login,
+			.btn-register{
+				padding: 13px 122.4px;
+
+			}
+		}
+
+
+		// .btn-register{
+		// 	margin-top: 10px;
+		// }
+
+		// .btn-login{
+		// 	margin-top: 10px;
+		// }
+
+		.btn-login,
+		.btn-register{
+			margin-top: 10px;
+		}
+
 
 		.btn-login{
 			text-transform: uppercase;
@@ -205,8 +228,10 @@
 		.form-control-wrapper{
 			display: flex;
 			align-items: baseline;
-			background-color: #76ae36;
+			background-color:$green-modal;
 			color: $white;
+
+
 
 			i{
 				font-size: 14px;
@@ -215,7 +240,7 @@
 		}
 
 		.form-control{
-			background-color: #76ae36;
+			background-color:$green-modal;
 			color: $white;
 			border: none;
 			font-size: 14px;

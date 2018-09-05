@@ -48,3 +48,151 @@
 		}
 	}
 }
+
+
+.sidebar-block{
+	.btn-primary{
+		border: none
+	}
+	.btn-blue{
+		background-color: #42a5f5;
+		border: none
+	}
+	.btn-cyan{
+		background-color:$cyan;
+		border:none;
+		margin-bottom: 0;
+	}
+	.img-wrapper{
+		width: 64px;
+		height: 64px;
+		background-color: $gray-500;
+
+	.media-body{
+		.media-body-profile{
+			background-color:$red;
+		}
+	}
+}
+}
+
+
+.sidebar-block{
+	.media-body{
+		.media-body-wrap{
+			border:1px solid $gray-500;
+			padding: 3px 5px;
+			@media(min-width: 768px){
+				padding: 6px 10px;
+			}
+
+			}
+		}
+	}
+
+.btn-primary{
+	margin-bottom: 5px;
+}
+
+.sidebar-block{
+	.dropdown{
+
+		.dropdown-info{
+			background-color:$white;
+			border: 1px solid $gray-400;
+			padding: 8px 8px 5px 10px;
+			color: $sidebar-text;
+		}
+
+		.dropdown-info::after{
+			font-family: FontAwesome;
+			content: "\f0d7";
+			margin-left: 14px;
+			color: $primary;
+
+
+		}
+	}
+}
+
+.sidebar-block{
+	.btn-group{
+		.btn-group-icon{
+			width: 34px;
+			height: 39px;
+			border-radius:0 0 21px 21px;
+			background-color:$gray-500;
+			margin-right:10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		&:last-of-type{
+			margin-right: 0;
+		}
+		.icon{
+			font-size: 20px;
+		}
+		// &::before{
+		// 	width: 34px;
+		// 	height: 21px;
+		// 	background-color: $gray-500;
+		// 	border-radius: 0 0 20px 20px;
+		// }
+
+	}
+}
+}
+
+.sidebar-block{
+	.btn-group{
+		.icon-meh-color{
+			background-color: $orange;
+		}
+		.icon-pagelines-color{
+			background-color: #f4511e;
+		}
+		.icon-bolt-color{
+			background-color: #00bcd4;
+		}
+		.icon-foursquare-color{
+			background-color: #66bb6a;
+		}
+		.icon-cny-color{
+			background-color: #cfd8dc;
+		}
+		.icon{
+			color:$white;
+		}
+	}
+	.sales-product{
+		font-size:20px;
+			.icon{
+				padding-right: 20px;
+				color:$span-icon;
+			}
+			.sales-account{
+				padding-left: 15px;
+			}
+		}
+	}
+
+.sidebar-block{
+	.listing{
+		.product-info{
+			font-size: 14px;
+			color: $dark;
+			font-weight:$font-weight-medium;
+			.product-information{
+				font-weight: 400;
+				color: $span-icon;
+				padding-left: 5px;
+			}
+		}
+	}
+	.product-information{
+		font-weight: 400;
+		color: $span-icon;
+		padding-left:0;
+		font-size: 14px;
+	}
+}

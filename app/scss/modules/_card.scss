@@ -50,7 +50,7 @@
 		}
 	}
 	&-body-inner .card-desc{
-		margin-top: 10px;
+		margin-top: $spacer	;
 	}
 	&-footer{
 	@media screen and (max-width:320px){
@@ -60,7 +60,7 @@
 		align-items: center;
 		justify-content: space-between;
 		background-color: transparent;
-		padding: $spacer $card-spacer-x;
+		padding:  $spacer $card-spacer-x-sm $card-spacer-x-sm $card-spacer-x-sm;
 
 		.card-author{
 			display: flex;
@@ -85,7 +85,7 @@
 		}
 	}
 
-	&-rating{
+	&-rating,{
 		font-size: $font-size-sm;
 	}
 
@@ -94,6 +94,7 @@
 		transition: 0.2s;
 		cursor: pointer;
 		font-weight: $font-weight-bold;
+		margin-right: 2px;
 
 		&:last-child{
 			margin-right: 0;
@@ -123,8 +124,8 @@
 	ul{
 		display: flex;
 			list-style: none;
-			// margin: 0;
-			// padding: 0;
+			margin: 0;
+			padding: 0;
 			li{
 				padding-right: 25px;
 				&:last-child{
@@ -134,3 +135,4 @@
 					}}}
 	}
 }
+
