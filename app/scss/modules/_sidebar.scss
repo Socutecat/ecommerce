@@ -55,7 +55,7 @@
 		border: none
 	}
 	.btn-blue{
-		background-color: #42a5f5;
+		background-color:$btn-blue;
 		border: none
 	}
 	.btn-cyan{
@@ -80,8 +80,15 @@
 .sidebar-block{
 	.media-body{
 		.media-body-wrap{
-			border:1px solid $gray-500;
+			display: inline-block;
+			text-align: left;
+			border:1px solid $gray-400;
 			padding: 3px 5px;
+			font-size: 13px;
+			color:$dark;
+				&:hover{
+					color:$green;
+			}
 			@media(min-width: 768px){
 				padding: 6px 10px;
 			}
@@ -90,18 +97,15 @@
 		}
 	}
 
-.btn-primary{
-	margin-bottom: 5px;
-}
-
 .sidebar-block{
 	.dropdown{
 
 		.dropdown-info{
 			background-color:$white;
 			border: 1px solid $gray-400;
-			padding: 8px 8px 5px 10px;
+			padding: 7px 10px 7px 7px;
 			color: $sidebar-text;
+			font-size: 13px;
 		}
 
 		.dropdown-info::after{
@@ -111,6 +115,29 @@
 			color: $primary;
 
 
+		}
+
+	}
+}
+
+.sidebar-block{
+	.btn-primary{
+		margin-bottom: 7px;
+		.btn-primary :nth-last-child(){
+			margin-bottom: 0;
+		}
+	}
+	.btn-lg{
+		padding: 15px 30px;
+		@media(min-width:768px){
+			padding: 15px 6px;
+		}
+
+	}
+	h5 a{
+		color:$dark;
+		&:hover{
+			color: $primary;
 		}
 	}
 }
@@ -172,6 +199,7 @@
 			}
 			.sales-account{
 				padding-left: 15px;
+				font-size: 16px;
 			}
 		}
 	}
@@ -196,3 +224,4 @@
 		font-size: 14px;
 	}
 }
+

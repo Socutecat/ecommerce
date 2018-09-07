@@ -12,6 +12,7 @@
 .account-information{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	margin-left: -1rem;
 	margin-bottom: -1rem;
 
@@ -22,6 +23,7 @@
 		margin-left: 1rem;
 		margin-bottom: 1rem;
 		font-size: 15px;
+		padding-bottom: 0;
 	}
 
 	.messages-block{
@@ -29,35 +31,42 @@
 		align-items: center;
 		justify-content: space-between;
 		.btn{
+			position: relative;
 			border-radius: 50%;
 			font-size: 14px;
-			position: relative;
+			padding: 0;
 			width: 34px;
 			height: 34px;
 			line-height: 34px;
 			text-align: center;
 			margin-left: 3px;
 			margin-right: 3px;
+
 			&:hover{
 				color: $dark;
 			}
 
-				.badge{
-					position: absolute;
-					border-radius: 50%;
-					color:$white;
-					font-size: 11px;
-					top: -10px
-				}
+			.badge{
+				position: absolute;
+				border-radius: 50%;
+				color: $white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 11px;
+				font-weight: 600;
+				top: -10px;
+				right: -5px;
+			}
+		}
+
+		.dropdown{
+			margin-left: 4px;
+			margin-right: 4px;
 		}
 
 		.dropdown-menu{
 			border: 1px solid $gray-700;
 			padding: 0;
 			margin: 0;
-			@media(min-width: 1200px){
-				margin-top: 31px;
-			}
 			border-radius: 0;
 			.dropdown-item+.dropdown-item{
 				border-top: 1px solid $gray-700;
@@ -109,6 +118,7 @@
 					background-color: $gray-700;
 					border-radius: 0;
 				}
+
 				.shopping-message{
 					margin-left:$spacer;
 
@@ -124,12 +134,20 @@
 			color: $dark;
 			font-weight: $font-weight-medium;
 		}
+
 		.shopping-cart-price{
-			color: $price-card;
+			font-size: 1rem;
+			font-weight: $font-weight-medium;
+			color: $black;
 		}
 
+		.shopping-cart-cat{
+			font-size: $font-size-sm;
+			font-weight: 400;
+		}
 	}
 }
+
 
 .user-info{
 	margin-left: $spacer;

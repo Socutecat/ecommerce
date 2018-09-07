@@ -1,0 +1,13 @@
+
+
+
+@mixin social-btn-colors($color_1, $color_2){
+	color: $color_1;
+	background-color: $color_2;
+	border: 1px solid $color_2;
+
+	&:hover{
+		color: $color_2;
+		background-color: $color_1;
+	}
+}

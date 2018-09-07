@@ -1,0 +1,30 @@
+
+/* Styles for owl carousel*/
+.owl-carousel .owl-dots {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.owl-carousel button.owl-dot {
+	border-radius: 50%;
+	height: 1rem;
+	width: 1rem;
+	border-color: $black;
+	box-sizing: border-box;
+	background: $gray-900;
+	border-width: $border-width;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.owl-carousel button.owl-dot:hover{
+	border: $border-width solid $primary;
+}
+
+.owl-carousel button.owl-dot.active {
+	height: 1rem;
+	width: 1rem;
+	background: $primary;
+}

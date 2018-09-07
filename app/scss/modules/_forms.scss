@@ -19,26 +19,25 @@
 	}
 
 	.controls {
+		// #slider-range{
+		// 	border: none;
+		// 	background: $alice-blue;
+		// 	border-radius: 0;
+		// }
 		#price-range {
 			border: none;
-			background: $gray-400;
+			background: $alice-blue;
 			border-radius: 0;
 			.ui-slider-range {
 				background: $dark;
 			}
 		}
-	}
 
-	.textinputs {
-		@extend .clearfix;
-		padding: 1.5rem 0;
-		input {
-			width: 4rem;
-			display: block;
-			float: left;
-		}
-		input:last-child {
-			float: right;
+		span{
+			font-size: 15px;
+			color: $bermuda-grey;
+			display: inline-block;
+			margin-top: 12px;
 		}
 	}
 }
