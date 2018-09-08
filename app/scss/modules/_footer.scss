@@ -1,0 +1,152 @@
+
+	.block-footer{
+		.block-footer-tittle{
+			font-size: 22px;
+			margin-bottom: 52px;
+			color: $white;
+			position: relative;
+			&:before {
+				position: absolute;
+				left: 0;
+				bottom: -27px;
+				content: "";
+				height: 3px;
+				width: 45px;
+				background: $primary;
+			}
+		}
+
+		.footer-text{
+			font-size: 15px;
+			color: $footer-text;
+			margin-bottom: 36px;
+			line-height: 24px;
+		}
+		.footer-adress-listing{
+			list-style: none;
+			padding-left: 0;
+			margin-bottom: 0;
+
+			li{
+				font-size: 14px;
+				line-height: 24px;
+				color: $white;
+				.fa{
+					margin-right: 20px;
+					font-size: 18px;
+					color: $primary;
+				}
+			}
+			li + li {
+				margin-top: 1rem;
+				.fa{
+					margin-right: 12px;
+					font-size:18px;
+					color: $primary;
+				}
+				a {
+					color: $white;
+					&:hover{
+						color:$primary;
+					}
+				}
+			}
+		}
+		.listing{
+			li:before{
+				padding-right: 15px;
+			}
+			li + li{
+				margin-top: 16px;
+			}
+			 li a{
+				color:$footer-text;
+
+			}
+		}
+
+		.social-icon{
+			display: flex;
+			justify-content:flex-start;
+			align-items: center;
+			padding-left: 0;
+			list-style: none;
+
+			li{
+				margin-right: 4px;
+				margin-left: 4px;
+			}
+
+
+			.icon{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 30px;
+				height: 30px;
+				font-size: 18px;
+				border-radius:4px;
+				color: $white;
+				&:hover{
+					opacity: 0.6;
+				}
+			}
+			.icon-youtube-play{
+				background-color:$secondary;
+			}
+			.icon-pinterest{
+					background-color: $white;
+					color: $venetian-red;
+			}
+			.icon-linkedin{
+					background-color: $denim;
+			}
+			.icon-facebook{
+				background-color:$mariner;
+			}
+			.icon-twitter{
+				background-color: $blue-jeans;
+			}
+		}
+
+		form{
+			.input-footer{
+				font-size: 14px;
+				line-height: 36px;
+				padding-left: 1rem;
+				color: $white;
+				background-color:$input-footer-color;
+				border: none;
+				box-shadow: none;
+			}
+		input::placeholder{
+			color:$footer-placeholder-color;
+		}
+			.submit-sign{
+				padding: 3px 10px;
+				background-color: $primary;
+				border: 1px solid $primary;
+				transition: .2s ease-in-out;
+				font-size: 20px;
+				cursor: pointer;
+				color: $white;
+				&:hover{
+					color:$primary;
+					background-color:$white;
+					transition: .2s ease-in;
+				}
+			}
+		.form-footer-tittle{
+			font-size: 20px;
+			color:$white;
+		}
+		}
+
+	}
+	.license{
+		font-size: 15px;
+		border-top: 1px solid #424d53;
+		padding-top: 25px;
+		padding-bottom: 35px;
+	}

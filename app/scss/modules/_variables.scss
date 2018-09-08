@@ -1,3 +1,7 @@
+// container
+$container-max-widths:(
+  xl:1200px
+);
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
@@ -30,6 +34,9 @@ $venetian-red: #bd081c;
 $arapawa:#7a8b95;
 $alice-blue: #f2f5f8;
 $bermuda-grey: #78909c;
+$footer-text:#b7c3c8;
+$input-footer-color:#2f3c43;
+$footer-placeholder-color:#697378;
 
 // color social-group
 $facebook:      $mariner;
@@ -80,6 +87,7 @@ $small-font-size: 87.5%;
 $font-size-sm: 0.75rem;
 
 $font-weight-medium: 500 !default;
+$font-weight-normal: 400 !default;
 
 $heading-4-font-weight: bold;
 
