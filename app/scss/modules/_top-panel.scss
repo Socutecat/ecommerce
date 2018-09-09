@@ -24,6 +24,7 @@
 		margin-bottom: 1rem;
 		font-size: 15px;
 		padding-bottom: 0;
+		color: #546e7a;
 	}
 
 	.messages-block{
@@ -205,6 +206,9 @@
 }
 .color-dark{
 	color: #546e7a;
+		&:hover{
+			color:$primary;
+		}
 }
 
 .user-data .dropdown-menu .dropdown-item{
