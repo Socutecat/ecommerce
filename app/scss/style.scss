@@ -1,5 +1,6 @@
 	@import "bootstrap/_functions.scss";
 	@import "modules/_variables.scss";
+	@import "modules/mixins/_mixins.scss";
 	@import "bootstrap/_bootstrap.scss";
 	@import "modules/_font-awesome.scss";
 	@import "modules/_buttons.scss";
@@ -11,13 +12,12 @@
 	@import "modules/_navbar.scss";
 	@import "modules/_btn-group.scss";
 	@import "modules/_sidebar.scss";
-	@import "modules/_forms.scss";
 	@import "modules/_breadcrumb.scss";
 	@import "modules/_modal.scss";
-	@import "modules/_owl-carousel.scss";
 	@import "modules/_owl.carousel.min.scss";
+	@import "modules/_owl-carousel.scss";
 	@import "modules/utilities/_text.scss";
-	@import "modules/mixins/_mixins.scss";
 	@import "modules/_nav.scss";
 	@import "modules/_footer.scss";
+	@import "modules/_forms.scss";
 

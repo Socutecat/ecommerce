@@ -1,43 +1,38 @@
 .range {
 	background-color: $white;
 	.ui-slider-handle {
-		width: 1rem;
-		height: 1rem;
-		top: -0.3125rem;
-		border: 0.3125rem solid $primary;
-		border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	top: -0.3125rem;
+	border: 0.3125rem solid $primary;
+	border-radius: 50%;
 
-		&:focus, &:active {
-			outline: none;
-			background: $white;
-		}
+	&:focus, &:active {
+	outline: none;
+	background: $white;
+	}
 	}
 
 	.ui-slider-horizontal {
-		height: 0.3125rem;
+	height: 0.3125rem;
 
 	}
 
 	.controls {
-		// #slider-range{
-		// 	border: none;
-		// 	background: $alice-blue;
-		// 	border-radius: 0;
-		// }
-		#price-range {
-			border: none;
-			background: $alice-blue;
-			border-radius: 0;
-			.ui-slider-range {
-				background: $dark;
-			}
-		}
-
-		span{
-			font-size: 15px;
-			color: $bermuda-grey;
-			display: inline-block;
-			margin-top: 12px;
-		}
+	#price-range {
+	border: none;
+	background: $alice-blue;
+	border-radius: 0;
+	.ui-slider-range {
+	background: $dark;
 	}
-}
+	}
+
+	span{
+	font-size: 15px;
+	color: $bermuda-grey;
+	display: inline-block;
+	margin-top: 12px;
+	}
+	}
+	} 

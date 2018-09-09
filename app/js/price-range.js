@@ -1,3 +1,4 @@
+
 $( function() {
 	var handle = $( "#custom-handle" );
 	var handle_2 = $( "#custom-handle_2" );
