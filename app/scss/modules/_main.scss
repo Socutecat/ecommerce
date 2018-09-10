@@ -3,50 +3,92 @@
 // style for why chhose us
 
 
-.box-shadow{
-	box-shadow: 0px 12px 29px 0 rgba(0, 0, 0, .35)
-}
+// .box-shadow{
+// 	box-shadow: 0px 12px 29px 0 rgba(0, 0, 0, .35)
+// }
 
 
 
-.author-inner{
-	background-color: $primary;
-	max-width: 650px;
-	min-height: 215px;
-	padding: 70px 60px 70px 60px;
+// .author-inner{
+// 	background-color: $primary;
+// 	max-width: 650px;
+// 	min-height: 215px;
+// 	padding: 70px 60px 70px 60px;
 
 
+// 	.author-inner-tittle{
+// 		font-size: 30px;
+// 		color: $white;
+// 		margin-bottom: 0;
+// 		font-weight: 400;
+// 		margin-right: 50px;
+
+// 	}
+// 	&-button{
+// 		display: inline-block;
+// 		text-align: center;
+// 		background-color:$white;
+// 		font-size: 18px;
+// 		line-height: 36px;
+// 		color: $dark;
+
+
+// 	}
+
+// }
+
+// .helper-title-text{
+// 	font-weight: bold;
+// 	font-size: 36px;
+// }
+
+
+.author-title{
+	height: 440px;
+	opacity: 0.9;
+	img{
+		width: 100%;
+		border-radius: 0;
+	}
+	.author-inner-wrapper{
+		min-height: 220px;
+		max-width: 650px;
+		position: absolute;
+		padding: 70px 60px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: $primary;
+		@media screen and (max-width:768px) {
+			width: 100%;
+			height: 100%;
+		}
+	}
 	.author-inner-tittle{
 		font-size: 30px;
-		color: $white;
-		margin-bottom: 0;
-		font-weight: 400;
-		margin-right: 50px;
-
 	}
-	&-button{
-		display: inline-block;
-		text-align: center;
+	.author-inner-button{
 		background-color:$white;
+		color: $dark;
+		display: inline-block;
+		min-width: 223px;
 		font-size: 18px;
 		line-height: 36px;
-		color: $dark;
-
-
+		padding: 10px 40px;
+		text-align: center;
 	}
-
 }
 
-.helper-title-text{
-	font-weight: bold;
-	font-size: 36px;
-}
 // Helper section
-
+.card{
+	&:hover{
+		box-shadow: none;
+	}
 
 .card-img-top-wrapper-helper{
 	max-height: 270px;
 	overflow: hidden;
+
 	img{
 		width: 100%;
 		border-radius: 0;
@@ -54,6 +96,7 @@
 }
 .helper-footer{
 	padding: 1.3rem 0.65rem 1.3rem 0.65rem;
+	background-color:$gray-300;
 	text-align: center;
 	.helper-footer-link{
 	display: inline-block;
@@ -66,4 +109,5 @@
 			transition: $transition-base;
 		}
 	}
+}
 }
