@@ -38,3 +38,34 @@
 	}
 	}
 	}
+
+
+	.contact-form{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 16px;
+		width: 100%;
+		input,
+		textarea{
+			box-shadow: none;
+			border: none;
+			border-radius: 0;
+			background-color: $gray-100;
+			color: $gray-200;
+			font-size: 15px;
+			padding:15px 0 15px 20px;
+			&:focus{
+				background-color: $gray-100;
+			}
+		}
+		 textarea{
+			resize:none;
+		}
+		 button{
+			text-transform: uppercase;
+			border-radius: 0;
+			font-weight: bold;
+			line-height: 24px;
+			padding: 14px 35px;
+		}
+	}

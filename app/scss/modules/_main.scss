@@ -111,3 +111,50 @@
 	}
 }
 }
+
+
+// Contact Us
+
+.auth-container{
+	border: 1px solid $gray-400;
+}
+
+
+.contact-block{
+	.link-dark-phone{
+		font-size: 15px;
+		padding-left: 40px;
+		color: $gray-900;
+			&:hover{
+				color:$primary;
+			}
+	}
+	padding-bottom: 30px;
+	span{
+		color: $primary;
+		margin-right: 24px;
+		font-size: 24px;
+		}
+
+			.contact-block-title{
+				position: relative;
+				display: flex;
+				align-items: center;
+				margin-bottom: 42px;
+				&:before {
+					position: absolute;
+					left: 40px;
+					bottom: -20px;
+					content: "";
+					height: 3px;
+					width: 45px;
+					background: $primary;
+				}
+			}
+		}
+
+
+		#map {
+			height: 410px;
+			width: 100%;
+		}
