@@ -5,12 +5,14 @@ $container-max-widths:(
 // Color system
 $primary: #8bc34a;
 $secondary: #e74c3c;
+$gray-50:#cccccc;
 $gray-100:#f1f4f5;
 $gray-200:#7a7a7a;
 $gray-300:#f8f8f8;
 $gray-400:#dde3e8;
 $gray-500: #adb5b9;
 $gray-600:#f4f6f5;
+$gray-650:#f9f9f9;
 $gray-700:#e0e0e0;
 $gray-800: #b5b5b5;
 $gray-900: #707070;
@@ -40,6 +42,10 @@ $bermuda-grey: #78909c;
 $footer-text:#b7c3c8;
 $input-footer-color:#2f3c43;
 $footer-placeholder-color:#697378;
+$upload-border:#acb0b3;
+$banner-wrapper-color:#90a4ae;
+$gray-83:#d4d4d4;
+$choose-section:#b0bec5;
 
 // color social-group
 $facebook:      $mariner;
@@ -129,6 +135,7 @@ $spacers: map-merge(
     23: 23px,
     24: 24px,
     25: 25px,
+    26: 26px,
     27: 27px,
     28: 28px,
     30: 30px,
@@ -148,6 +155,7 @@ $spacers: map-merge(
     58: 58px,
     60: 60px,
     65: 65px,
+    68:68px,
     69: 69px,
     70: 70px,
     75: 75px,
@@ -163,7 +171,9 @@ $spacers: map-merge(
     135:135px,
     145: 145px,
     150: 150px,
+    153:153px,
     170: 170px,
+    202:202px,
     225: 225px,
   ),
   $spacers

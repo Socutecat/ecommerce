@@ -45,7 +45,6 @@
 
 .author-title{
 	height: 440px;
-	opacity: 0.9;
 	img{
 		width: 100%;
 		border-radius: 0;
@@ -59,11 +58,19 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		background-color: $primary;
-		@media screen and (max-width:768px) {
-			width: 100%;
-			height: 100%;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9;
+			@media (min-width: 576px){
+				width: 57%;
+				height: auto;
+				padding: 45px 35px;
+			}
+			@media (min-width: 992px){
+				padding: 70px 35px;
+			}
 		}
-	}
+
 	.author-inner-tittle{
 		font-size: 30px;
 	}
@@ -120,11 +127,14 @@
 }
 
 
+
+
 .contact-block{
 	.link-dark-phone{
 		font-size: 15px;
 		padding-left: 40px;
 		color: $gray-900;
+
 			&:hover{
 				color:$primary;
 			}
@@ -154,7 +164,97 @@
 		}
 
 
+// main-banner-wrapper
+.stylish-input-group{
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background: $white;
+	border-radius: $border-radius;
+
+	&:hover{
+		box-shadow: 0 0.0625rem 0.625rem 0 rgba(124, 178, 64, 0.75);
+	}
+
+	.form-control{
+		border: 0;
+		box-shadow: 0 0 0;
+		border-color: $gray-50;
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 0.0625rem;
+		color: $banner-wrapper-color;
+	}
+
+	button{
+		border: 0;
+		background: transparent;
+		height: 100%;
+		opacity: 0.7;
+
+		i{
+			font-size: 1.25rem;
+		}
+	}
+
+	button:hover{
+		opacity: 1;
+		cursor: pointer;
+	}
+}
+
+
+
+// why choose us
+.service{
+
+	&:hover > &-img{
+		border: $border-width solid $primary;
+		background-color: $gray-83;
+	}
+
+	&-img{
+		box-sizin: border-box;
+		width: 113px;
+		height: 113px;
+		border-radius: 50%;
+		background-color: $gray-800;
+	}
+
+	&-header{
+		color: $white;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	&-text{
+		font-size: 0.9375rem;
+		line-height: 1.5rem;
+		color: $choose-section;
+	}
+}
+
 		#map {
 			height: 410px;
 			width: 100%;
 		}
+
+
+// about-foxtar-page
+
+.about-inner-page{
+	border: 1px solid $gray-400;
+		.border-gray{
+			border-bottom: 1px solid $gray-400;
+		}
+		.about-foxtar-inner-text{
+
+			p{
+				font-size: 15px;
+				margin-bottom: 0;
+			}
+		}
+}

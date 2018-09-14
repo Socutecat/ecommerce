@@ -8,3 +8,10 @@
 .bg-gray-600{
 	background-color:$gray-600;
 }
+
+.bg-img-1{
+	background-image: url(../img/main-slide.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

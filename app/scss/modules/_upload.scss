@@ -1,0 +1,106 @@
+.upload-inner{
+	border: 1px solid $gray-400;
+		&-title{
+			border-bottom: 1px solid $gray-400;
+		}
+}
+
+
+form{
+	.form-control{
+		background-color:$gray-650;
+	}
+	.form-group{
+		margin-bottom: 25px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		.form-group-textarea{
+			resize: none;
+			padding: 10px 0 10px 15px;
+			border: 1px solid $gray-400;
+		}
+		.form-group-input{
+			padding:10px 0 10px 20px;
+			font-size: 15px;
+			color: $gray-900;
+			border: 1px solid $gray-400;
+		}
+		.form-control{
+			padding: 0;
+			height: 45px;
+			padding: 10px 0 10px 20px;
+			border: none;
+			color: $gray-900;
+			border: 1px solid $gray-400;
+			font-size: 15px;
+		}
+		.form-control-file{
+			border: 1px solid $gray-400;
+			padding-top: 8px;
+			padding-bottom:8px;
+			padding-left: 8px;
+			background-color:$white;
+		}
+	}
+	// .form-group + .form-group{
+	// 	padding-top: 23px;
+	// }
+	.custom-file-input{
+		width: 100%
+	}
+	.custom-file-label{
+		padding: 0;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	label{
+		font-size: 15px;
+		color: #444444;
+		font-weight:$font-weight-medium;
+	}
+	span{
+		color:$primary;
+	}
+}
+
+.price-block{
+	border-bottom: 1px solid $gray-400;
+}
+
+.upload-inner-group{
+	.form-group-input{
+		padding:10px 0 10px 20px;
+		font-size: 15px;
+		color: $gray-900;
+		border: 1px solid $gray-400;
+	}
+		.form-group{
+			margin-bottom: 25px;
+				&:last-of-type{
+					margin-bottom: 0;
+				}
+			label{
+				font-size: 15px;
+				color: #444444;
+				font-weight:$font-weight-medium;
+			}
+			span{
+				color:$primary;
+			}
+			.submit{
+				color: $white;
+				font-size: 15px;
+				background-color: $primary;
+				border:0;
+				padding: 7px 20px;
+					@media(min-width:768px){
+				padding: 15px 40px;}
+				cursor: pointer;
+					&:hover{
+						background-color:$primary;
+						opacity: 0.9;
+					}
+			}
+	}
+}
